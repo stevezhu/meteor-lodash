@@ -1,1 +1,1 @@
-console.log(window._);
+_ = lodash = this._;

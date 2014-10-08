@@ -10,7 +10,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.versionsFrom('METEOR@0.9.0');
-	api.addFiles('lodash.js', 'client');
+	api.addFiles(['lodash.js', 'client.js'], 'client');
 	api.addFiles('server.js', 'server');
 	api.export('lodash');
 	api.export('_');
