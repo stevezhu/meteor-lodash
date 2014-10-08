@@ -1,1 +1,1 @@
-lodash = Npm.require('lodash');
+_ = lodash = Npm.require('lodash');

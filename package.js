@@ -13,6 +13,7 @@ Package.onUse(function(api) {
 	api.addFiles(['lodash.js', 'client.js'], 'client');
 	api.addFiles('server.js', 'server');
 	api.export('lodash');
+	api.export('_');
 });
 
 Package.onTest(function(api) {
