@@ -4,7 +4,7 @@ Npm.depends({
 
 Package.describe({
 	summary: "A utility library delivering consistency, customization, performance, & extras.",
-	version: "1.0.1",
+	version: "1.0.2",
 	git: "https://github.com/stevezhu/meteor-lodash.git"
 });
 
