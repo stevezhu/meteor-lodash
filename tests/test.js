@@ -1,4 +1,4 @@
 Tinytest.add("lodash - Exists", function(test) {
-	test.notEqual(typeof lodash, 'undefined', "Expected lodash to be defined");
-	test.equal(_, lodash, "Expected _ to be lodash");
+	test.equal(_, Package.underscore._, "Expected _ to be underscore.");
+	test.equal(true, typeof lodash !== 'undefined', "Expected lodash to not be undefined")
 });

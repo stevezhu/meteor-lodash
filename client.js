@@ -1,1 +1,1 @@
-_ = lodash = this._;
+lodash = this._;
