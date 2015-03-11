@@ -1,15 +1,14 @@
 Npm.depends({
-	'lodash': '2.4.1'
+	'lodash': '3.5.0'
 });
 
 Package.describe({
 	summary: "A utility library delivering consistency, customization, performance, & extras.",
-	version: "1.0.2",
+	version: "3.5.0",
 	git: "https://github.com/stevezhu/meteor-lodash.git"
 });
 
 Package.onUse(function(api) {
-	api.versionsFrom('METEOR@0.9.0');
 	api.addFiles(['lodash.js', 'client.js'], 'client');
 	api.addFiles('server.js', 'server');
 	api.export('lodash');
