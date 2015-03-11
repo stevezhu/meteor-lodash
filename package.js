@@ -17,6 +17,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
 	api.use('tinytest');
-	api.use('stevezhu:lodash');
+	api.use('stevezhu:lodash@3.5.0');
 	api.addFiles('tests/test.js');
 });
