@@ -11,4 +11,5 @@ Using lodash v3.5.0
 meteor add stevezhu:lodash@3.5.0
 ```
 
-`_` and `lodash` are both defined as lodash.
+`_` and `lodash` are both defined as lodash if used in a package.  
+In an app, `_` is redefined as underscore so you may need to have `_ = lodash;` in some main javascript file.
