@@ -8,7 +8,7 @@ Using lodash v3.5.0
 ## Usage
 
 ```
-meteor add stevezhu:lodash@3.5.0
+meteor add stevezhu:lodash
 ```
 
 `_` and `lodash` are both defined as lodash if used in a package.  
