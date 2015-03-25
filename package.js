@@ -2,18 +2,10 @@ Npm.depends({
 	'lodash': '3.5.0'
 });
 
-var path = Npm.require('path');
-var argv = process.argv.slice(2);
-var packageDirname;
-if (argv[0] === 'test-packages') {
-	packageDirname = path.basename(path.resolve(process.argv[process.argv.length - 1]));
-} else {
-	packageDirname = path.basename(process.cwd());
-}
-
 Package.describe({
+	name: "stevezhu:lodash",
 	summary: "A utility library delivering consistency, customization, performance, & extras.",
-	version: "3.5.0",
+	version: "3.5.0_1",
 	git: "https://github.com/stevezhu/meteor-lodash.git"
 });
 
@@ -26,6 +18,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
 	api.use('tinytest');
-	api.use(packageDirname);
+	api.use('stevezhu:lodash');
 	api.addFiles('tests/test.js');
 });
