@@ -16,4 +16,4 @@ In an app, `_` is redefined as underscore so you may need to have `_ = lodash;` 
 
 ### Thanks
 
-@emmn
+[@EmmN](https://github.com/EmmN)
