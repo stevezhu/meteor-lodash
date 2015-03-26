@@ -14,6 +14,6 @@ meteor add stevezhu:lodash
 `_` and `lodash` are both defined as lodash if used in a package.
 In an app, `_` is redefined as underscore so you may need to have `_ = lodash;` in some main javascript file.
 
-### Thanks
+## Contributors
 
 [@EmmN](https://github.com/EmmN)
