@@ -2,7 +2,7 @@
 
 A meteor package for [lodash](http://lodash.com/).
 
-Using lodash v3.8.0
+Using lodash v3.9.3
 
 
 ## Usage
