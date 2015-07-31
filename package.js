@@ -1,9 +1,9 @@
-Npm.depends({'lodash': '3.9.3'});
+Npm.depends({'lodash': '3.10.0'});
 
 Package.describe({
 	name: "stevezhu:lodash",
 	summary: "A utility library delivering consistency, customization, performance, & extras.",
-	version: "3.9.3",
+	version: "3.10.0",
 	git: "https://github.com/stevezhu/meteor-lodash.git"
 });
 
