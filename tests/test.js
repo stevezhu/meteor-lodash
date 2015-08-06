@@ -1,4 +1,4 @@
-Tinytest.add("lodash - Exists", function(test) {
+Tinytest.add("lodash - exists", function(test) {
 	test.notEqual(typeof lodash, 'undefined', "Expected lodash to not be undefined");
 });
 
