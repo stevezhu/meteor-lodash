@@ -22,7 +22,7 @@ html-tools@1.0.10
 htmljs@1.0.10
 id-map@1.0.8
 jquery@1.11.9
-local-test:stevezhu:lodash@4.16.4
+local-test:stevezhu:lodash@4.17.2
 logging@1.0.14
 meteor@1.1.16
 minimongo@1.0.17
@@ -40,7 +40,7 @@ retry@1.0.8
 routepolicy@1.0.11
 spacebars@1.0.12
 spacebars-compiler@1.0.12
-stevezhu:lodash@4.16.4
+stevezhu:lodash@4.17.2
 tinytest@1.0.11
 tracker@1.0.14
 ui@1.0.11
