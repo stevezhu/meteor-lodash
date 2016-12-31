@@ -1,4 +1,4 @@
-# NOTE Deprecated as of Meteor 1.3. Functionality for npm packages is now part of meteor: https://guide.meteor.com/using-npm-packages.html
+## NOTE Deprecated as of Meteor 1.3. Functionality for npm packages is now part of meteor: https://guide.meteor.com/using-npm-packages.html
 
 
 [![Build Status](https://travis-ci.org/stevezhu/meteor-lodash.svg?branch=master)](https://travis-ci.org/stevezhu/meteor-lodash)
